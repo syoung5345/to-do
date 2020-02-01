@@ -91,10 +91,14 @@
 
 	input { 
     margin: 0;
-    border-radius: 1rem;
+    border: solid gray 1rem;
     font-size: 1em;
     color: gray;
     padding-left: 1rem;
+  }
+
+  input:focus {
+    border-radius: 1rem;
   }
 
   ::placeholder {
