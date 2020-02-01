@@ -91,23 +91,9 @@
 
 	input { 
     margin: 0;
-    border: solid gray 2px;
-    border-radius: 1rem;
     font-size: 1em;
     color: gray;
-    padding-left: 1rem;
-  }
-
-  input:focus {
-    border-radius: none;
-    border: none;
-    box-shadow: none;
-  }
-
-  ::placeholder {
-    /* font-size: 1em;
-    color: gray;
-    padding-left: 1rem; */
+    padding-left: .5rem;
   }
 
 	.right label {
