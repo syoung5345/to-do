@@ -89,12 +89,15 @@
 		user-select: none;
 	}
 
-	input { margin: 0 }
+	input { 
+    margin: 0;
+    border-radius: 1rem;
+  }
 
   ::placeholder {
-    font-size: .5em;
+    font-size: 1em;
     color: gray;
-    padding: 2rem;
+    padding-left: 1rem;
   }
 
 	.right label {
@@ -159,7 +162,7 @@
     </div>
   </div>
   
-  <h2>Svelte + Node.js API</h2>
+  <!-- <h2>Svelte + Node.js API</h2>
   <p>
     <a
       href="https://github.com/zeit/now/tree/master/examples/svelte"
@@ -186,5 +189,5 @@
   </p>
   <br />
   <h2>The date according to Node.js is:</h2>
-  <p>{date ? date : 'Loading date...'}</p>
+  <p>{date ? date : 'Loading date...'}</p> -->
 </main>
