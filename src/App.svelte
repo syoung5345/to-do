@@ -59,7 +59,7 @@
 	}
 
 	.board {
-		max-width: 36em;
+		max-width: 40em;
 		margin: 0 auto;
 	}
 
@@ -84,12 +84,18 @@
 		line-height: 1;
 		padding: 0.5em;
 		margin: 0 auto 0.5em auto;
-		border-radius: 2px;
+		border-radius: 1rem;
 		background-color: #eee;
 		user-select: none;
 	}
 
 	input { margin: 0 }
+
+  ::placeholder {
+    font-size: .5em;
+    color: gray;
+    padding: 2rem;
+  }
 
 	.right label {
 		background-color: rgb(180,240,100);
@@ -112,8 +118,6 @@
 		opacity: 1;
 	}
 </style>
-
-
 
 <main>
   <h1>todo</h1>
