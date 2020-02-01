@@ -3,4 +3,4 @@ const getDate = (req, res) => {
   res.status(200).send(date);
 };
 
-module.exports = { getDate };
+module.exports = getDate;
