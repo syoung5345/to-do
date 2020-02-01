@@ -91,14 +91,17 @@
 
 	input { 
     margin: 0;
-    border: solid gray 1rem;
+    border: solid gray 2px;
+    border-radius: 1rem;
     font-size: 1em;
     color: gray;
     padding-left: 1rem;
   }
 
   input:focus {
-    border-radius: 1rem;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
   }
 
   ::placeholder {
