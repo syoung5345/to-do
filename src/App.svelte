@@ -116,8 +116,7 @@
 
 
 <main>
-  <h1>Svelte + Node.js API</h1>
-  
+  <h1>todo</h1>
   <div class='board'>
     <input
       class="new-todo"
@@ -156,6 +155,7 @@
     </div>
   </div>
   
+  <h2>Svelte + Node.js API</h2>
   <p>
     <a
       href="https://github.com/zeit/now/tree/master/examples/svelte"
