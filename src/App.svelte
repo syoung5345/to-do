@@ -92,12 +92,15 @@
 	input { 
     margin: 0;
     border-radius: 1rem;
-  }
-
-  ::placeholder {
     font-size: 1em;
     color: gray;
     padding-left: 1rem;
+  }
+
+  ::placeholder {
+    /* font-size: 1em;
+    color: gray;
+    padding-left: 1rem; */
   }
 
 	.right label {
