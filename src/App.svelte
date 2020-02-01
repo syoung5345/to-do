@@ -158,7 +158,7 @@
     </div>
   </div>
   
-  <!-- <h2>Svelte + Node.js API</h2>
+  <h2>Svelte + Node.js API</h2>
   <p>
     <a
       href="https://github.com/zeit/now/tree/master/examples/svelte"
@@ -185,5 +185,5 @@
   </p>
   <br />
   <h2>The date according to Node.js is:</h2>
-  <p>{date ? date : 'Loading date...'}</p> -->
+  <p>{date ? date : 'Loading date...'}</p>
 </main>
